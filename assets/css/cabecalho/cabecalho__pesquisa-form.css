@@ -1,0 +1,16 @@
+.cabecalho__pesquisa-form{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    width: 393px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    
+}
+.cabecalho__pesquisa-form:has(.cabecalho__pesquisa-search:focus){
+    outline-style: solid;
+    outline-width: 1px;
+}

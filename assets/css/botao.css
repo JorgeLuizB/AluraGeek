@@ -1,0 +1,23 @@
+.botao{
+    display: inline-block;
+    text-decoration: none;
+    width: 182px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao_tipo_primario{
+    background-color: #2A7AE4;
+    color: #fff;
+}
+.botao_tipo_primario:hover{
+    background-color: #5595E9;
+}
+.botao_tipo_secundario{
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+.botao_tipo_secundario:hover{
+    background-color: #D4E4FA;
+}

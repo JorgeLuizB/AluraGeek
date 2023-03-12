@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+@import url(base/normalize.css);
+@import url(base/reset.css);
+@import url(base/container.css);
+
+@import url(cabecalho/cabecalho.css);
+@import url(cabecalho/cabecalho__conteudo.css);
+@import url(cabecalho/cabecalho__logo.css);
+@import url(cabecalho/cabecalho__pesquisa-form.css);
+@import url(cabecalho/cabecalho__pesquisa-search.css);
+@import url(cabecalho/cabecalho__pesquisa-submit.css);
+
+@import url(hero/hero.css);
+@import url(hero/hero__titulo.css);
+@import url(hero/hero__descricao.css);
+
+@import url(botao.css)
