@@ -1,0 +1,12 @@
+.hero{
+    background-image: url(../../imgs/mushroom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 352px;
+    display: flex;
+    color: #fff;
+    align-items: flex-end;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+}
