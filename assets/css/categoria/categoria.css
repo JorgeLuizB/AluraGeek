@@ -1,0 +1,6 @@
+.categoria{
+    margin-bottom: 64px;
+}
+.categoria:last-of-type{
+    margin-bottom: 0;
+}
