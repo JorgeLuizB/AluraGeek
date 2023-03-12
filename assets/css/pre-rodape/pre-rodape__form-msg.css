@@ -1,0 +1,15 @@
+.pre-rodape__form-msg{
+    margin-bottom: 8px;
+    border: none;
+    resize: none;
+    height: 82px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    outline: none;
+}
+.pre-rodape__form-msg::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+}

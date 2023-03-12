@@ -1,0 +1,14 @@
+.pre-rodape__form-input{
+    margin-bottom: 1rem;
+    border: none;
+    height: 56px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    outline: none;
+}
+.pre-rodape__form-input::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+}

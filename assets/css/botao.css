@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 .botao_tipo_primario{
     background-color: #2A7AE4;

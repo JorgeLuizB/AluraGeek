@@ -1,0 +1,16 @@
+.pre-rodape__form{
+    display: flex;
+    flex-direction: column;
+}
+.pre-rodape__form > input{
+    display: block;
+}
+.pre-rodape__form > label{
+    font-size: 12px;
+    color: #A2A2A2;
+    margin-bottom: -24px;
+    margin-left: 12px;
+    position: relative;
+    z-index: 2;
+    
+}

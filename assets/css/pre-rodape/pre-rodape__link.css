@@ -1,0 +1,8 @@
+.pre-rodape__link{
+    color: #464646;
+    text-decoration: none;
+    font-weight: 500;
+}
+.pre-rodape__link:last-of-type{
+    margin-bottom: 0;
+}

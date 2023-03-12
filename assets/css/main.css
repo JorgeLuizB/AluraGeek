@@ -29,4 +29,18 @@
 @import url(produtos/produto__preco.css);
 @import url(produtos/produto__link.css);
 
+@import url(pre-rodape/pre-rodape.css);
+@import url(pre-rodape/pre-rodape__conteudo.css);
+@import url(pre-rodape/pre-rodape__links-uteis.css);
+@import url(pre-rodape/pre-rodape__logo.css);
+@import url(pre-rodape/pre-rodape__lista.css);
+@import url(pre-rodape/pre-rodape__item.css);
+@import url(pre-rodape/pre-rodape__link.css);
+@import url(pre-rodape/pre-rodape__contato.css);
+@import url(pre-rodape/pre-rodape__contato-titulo.css);
+@import url(pre-rodape/pre-rodape__form.css);
+@import url(pre-rodape/pre-rodape__form-input.css);
+@import url(pre-rodape/pre-rodape__form-msg.css);
+@import url(pre-rodape/pre-rodape__form-btn.css);
+
 @import url(botao.css);
