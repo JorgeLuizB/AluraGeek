@@ -43,6 +43,8 @@
 @import url(pre-rodape/pre-rodape__form-msg.css);
 @import url(pre-rodape/pre-rodape__form-btn.css);
 
-@import url(rodape.css);
+@import url(rodape/rodape.css);
+@import url(rodape/rodape__link.css);
+@import url(rodape/rodape__texto.css);
 
 @import url(botao.css);

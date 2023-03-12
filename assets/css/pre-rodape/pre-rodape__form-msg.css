@@ -9,6 +9,9 @@
     border-radius: 4px;
     outline: none;
 }
+.pre-rodape__form-msg:focus{
+    border-color: #2A7AE4;
+}
 .pre-rodape__form-msg::placeholder{
     color: #A2A2A2;
     font-size: 12px;

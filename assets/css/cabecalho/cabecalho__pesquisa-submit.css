@@ -3,3 +3,6 @@
     background-color: transparent;
     cursor: pointer;
 }
+.cabecalho__pesquisa-submit:hover{
+    color: #2A7AE4;
+}

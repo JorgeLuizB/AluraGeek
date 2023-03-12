@@ -6,3 +6,6 @@
 .pre-rodape__link:last-of-type{
     margin-bottom: 0;
 }
+.pre-rodape__link:hover{
+    color: #2A7AE4;
+}
