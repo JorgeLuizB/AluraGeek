@@ -1,0 +1,13 @@
+@import url(../lista-de-produtos.css);
+
+@import url(../categoria/categoria.css);
+@import url(../categoria/categoria__cabecalho.css);
+@import url(../categoria/categoria__titulo.css);
+@import url(../categoria/categoria__link.css);
+
+@import url(../produtos/produtos.css);
+@import url(../produtos/produto__item.css);
+@import url(../produtos/produto__imagem.css);
+@import url(../produtos/produto__titulo.css);
+@import url(../produtos/produto__preco.css);
+@import url(../produtos/produto__link.css);
