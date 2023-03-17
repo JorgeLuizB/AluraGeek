@@ -1,0 +1,12 @@
+.produto__item-editar{
+    border: none;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: .5rem;
+    right: 0;
+    cursor: pointer;
+}
+.produto__item-editar:hover{
+    color: #545454;
+}

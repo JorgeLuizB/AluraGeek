@@ -27,3 +27,9 @@
     width: 100%;
     padding: 0;
 }
+.botao_pos_direita{
+    margin-left: auto;
+}
+.botao_disabled{
+    display: none;
+}

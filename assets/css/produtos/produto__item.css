@@ -1,3 +1,9 @@
+.produto__item{
+    position: relative;
+}
 .produto__item:hover{
     background: linear-gradient(#EAF2FD 60%, #fff);
+}
+.produto__item-m-3{
+    margin-bottom: 3rem;
 }

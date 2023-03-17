@@ -1,0 +1,12 @@
+.produto__item-excluir{
+    border: none;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: .5rem;
+    right: 2rem;
+    cursor: pointer;
+}
+.produto__item-excluir:hover{
+    color: #545454;
+}

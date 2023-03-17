@@ -11,3 +11,5 @@
 @import url(../produtos/produto__titulo.css);
 @import url(../produtos/produto__preco.css);
 @import url(../produtos/produto__link.css);
+@import url(../produtos/produto__item-excluir.css);
+@import url(../produtos/produto__item-editar.css);
