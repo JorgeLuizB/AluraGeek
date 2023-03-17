@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c0bca63d77.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/base/base.css">
-    <link rel="stylesheet" href="../css/componentes/login-controller.css">
+    <link rel="stylesheet" href="../css/componentes/cadastro-produtos-controller.css">
     <title>Alura Geek: Home</title>
 </head>
 <body>
@@ -25,12 +25,19 @@
                 <a class="botao botao_tipo_secundario" href="login.html" title="Login">Login</a> 
         </div>
     </header>
-    <section class="login">
-        <div class="login__conteudo">
-            <h2 class="login__titulo">Iniciar Sessão</h2>
-            <form action="" class="login__form">
-                <input class="login__form-input" type="email" id="email" name="email" placeholder="Escreva seu e-mail">
-                <input class="login__form-input" type="password" id="senha" name="senha" placeholder="Escreva sua senha">
+    <section class="cadastro-produtos">
+        <div class="cadastro-produtos__conteudo">
+            <h2 class="cadastro-produtos__titulo">Adicionar novo produto</h2>
+            <form action="" class="cadastro-produtos__form">
+                <label class="cadastro-produtos__form-label" for="url">URL da imagem</label>
+                <input id="url" class="cadastro-produtos__form-input" type="text">
+                <label class="cadastro-produtos__form-label"  for="categoria">Categoria</label>
+                <input id="categoria" class="cadastro-produtos__form-input" type="text">
+                <label class="cadastro-produtos__form-label"  for="nome-produto">Nome do produto</label>
+                <input id="nome-produto" class="cadastro-produtos__form-input" type="text">
+                <label class="cadastro-produtos__form-label"  for="preco-produto">Preço do produto</label>
+                <input id="preco-produto" class="cadastro-produtos__form-input" type="text">
+                <textarea class="cadastro-produtos__form-msg" placeholder="Descrição do Produto"></textarea>
                 <input class="botao botao_tipo_primario botao_tipo-largo" type="submit" value="Entrar">
             </form>
         </div>

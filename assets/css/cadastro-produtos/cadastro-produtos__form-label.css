@@ -1,0 +1,11 @@
+.cadastro-produtos__form-label{
+    display: block;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    left: 4px;
+    margin: 5px 0 -20px 6px;
+    color: #A2A2A2;
+    z-index: 2;
+    cursor: pointer;
+}

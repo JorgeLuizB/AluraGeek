@@ -1,0 +1,13 @@
+.cadastro-produtos__form-msg{
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    height: 82px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    padding: 6px 6px;
+    margin-bottom: 14px;
+    
+}

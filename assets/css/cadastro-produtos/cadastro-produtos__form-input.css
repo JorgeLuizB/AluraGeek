@@ -1,0 +1,11 @@
+.cadastro-produtos__form-input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 56px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 0 2px;
+}

@@ -1,0 +1,7 @@
+.cadastro-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 619px;
+    background-color: #F5F5F5;
+}
