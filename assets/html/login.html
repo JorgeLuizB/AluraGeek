@@ -29,8 +29,8 @@
         <div class="login__conteudo">
             <h2 class="login__titulo">Iniciar Sessão</h2>
             <form action="" autocomplete="off" class="login__form">
-                <input class="login__form-input" type="email" id="email" name="email" placeholder="Escreva seu e-mail" required>
-                <input class="login__form-input" type="password" id="senha" name="senha" placeholder="Escreva sua senha" required>
+                <input class="login__form-input" type="email" id="email" name="email" placeholder="Escreva seu e-mail" data-tipo="email" required>
+                <input class="login__form-input" type="password" id="senha" name="senha" placeholder="Escreva sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^\da-zA-Z\s]).{6,12}$" title="A senha deve conter pelo menos 1 letra maiúscula, 1 letra minúscula, 1 número e 1 caractere especial. Comprimento mínimo de 6 caracteres e máximo de 12." required data-tipo="senha">
                 <input class="botao botao_tipo_primario botao_tipo-largo" type="submit" value="Entrar">
             </form>
         </div>
@@ -57,8 +57,8 @@
                     <h3 class="pre-rodape__contato-titulo">Fale Conosco</h3>
                     <form action="" autocomplete="off" class="pre-rodape__form">
                         <label for="input-nome">Nome</label>
-                        <input type="text" id="input-nome" data-nome class="pre-rodape__form-input" required>
-                        <textarea data-msg placeholder="Escreva sua mensagem" class="pre-rodape__form-msg" required></textarea>
+                        <input type="text" id="input-nome" class="pre-rodape__form-input" data-tipo="nome" required>
+                        <textarea placeholder="Escreva sua mensagem" class="pre-rodape__form-msg" data-tipo="msg" required></textarea>
                         <input type="submit" class="botao botao_tipo_primario pre-rodape__form-btn" value="Enviar mensagem">
                     </form>
                 </div>
@@ -71,6 +71,6 @@
         <a href="https://www.linkedin.com/in/jorge-luiz-dev/" class="rodape__link">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/JorgeLuizB" class="rodape__link">Github <i class="fa-brands fa-square-github"></i></a>
     </footer>
-
+    <script type="module" src="../js/controlador.js"></script>
 </body>
 </html>

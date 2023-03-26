@@ -30,14 +30,14 @@
             <h2 class="cadastro-produtos__titulo">Adicionar novo produto</h2>
             <form action="" autocomplete="off" class="cadastro-produtos__form">
                 <label class="cadastro-produtos__form-label" for="url">URL da imagem</label>
-                <input id="url" class="cadastro-produtos__form-input" type="text" required>
+                <input id="url" class="cadastro-produtos__form-input" type="text" data-tipo="p_url" required>
                 <label class="cadastro-produtos__form-label"  for="categoria">Categoria</label>
-                <input id="categoria" class="cadastro-produtos__form-input" type="text"  maxlength="20" required>
+                <input id="categoria" class="cadastro-produtos__form-input" type="text"  maxlength="20" data-tipo="p_categoria" required>
                 <label class="cadastro-produtos__form-label"  for="nome-produto">Nome do produto</label>
-                <input id="nome-produto" class="cadastro-produtos__form-input" type="text" maxlength="20" required>
+                <input id="nome-produto" class="cadastro-produtos__form-input" type="text" maxlength="20" data-tipo="p_nome" required>
                 <label class="cadastro-produtos__form-label"  for="preco-produto">Preço do produto</label>
-                <input id="preco-produto" class="cadastro-produtos__form-input" type="text" data-tipo="preco" required>
-                <textarea class="cadastro-produtos__form-msg" placeholder="Descrição do Produto" maxlength="150" required></textarea>
+                <input id="preco-produto" class="cadastro-produtos__form-input" type="text" data-tipo="p_preco" required>
+                <textarea class="cadastro-produtos__form-msg" placeholder="Descrição do Produto" maxlength="150" data-tipo="p_descricao" required></textarea>
                 <input class="botao botao_tipo_primario botao_tipo-largo" type="submit" value="Entrar">
             </form>
         </div>
@@ -64,8 +64,8 @@
                     <h3 class="pre-rodape__contato-titulo">Fale Conosco</h3>
                     <form action="" autocomplete="off" class="pre-rodape__form">
                         <label for="input-nome">Nome</label>
-                        <input type="text" id="input-nome" class="pre-rodape__form-input">
-                        <textarea name="" id="" placeholder="Escreva sua mensagem" class="pre-rodape__form-msg"></textarea>
+                        <input type="text" id="input-nome" class="pre-rodape__form-input" data-tipo="nome" required>
+                        <textarea placeholder="Escreva sua mensagem" class="pre-rodape__form-msg" data-tipo="msg" required></textarea>
                         <input type="submit" class="botao botao_tipo_primario pre-rodape__form-btn" value="Enviar mensagem">
                     </form>
                 </div>
