@@ -23,14 +23,14 @@
                 </form>
             </div>
             <div>
-                <a class="botao botao_tipo_secundario" href="login.html" title="Login">Login</a> 
+                <a class="botao botao_tipo_secundario" href="assets/html/login.html" title="Login">Login</a> 
         </div>
     </header>
     <section class="hero">
         <div class="container">
             <h1 class="hero__titulo">Dezembro Promocional</h1>
             <p class="hero__descricao">Produtos selecionados com 33% de desconto</p>
-            <a href="" class="botao botao_tipo_primario" title="Ver consoles">Ver Consoles</a>
+            <a href="#consoles" class="botao botao_tipo_primario" title="Ver consoles">Ver Consoles</a>
         </div>
     </section>
     <section class="lista-de-produtos">
@@ -80,7 +80,7 @@
                 </section>
             </section>
 
-            <section class="categoria">
+            <section class="categoria" id="consoles">
                 <div class="categoria__cabecalho">
                     <h2 class="categoria__titulo">Console</h2>
                     <a href="" class="categoria__link">Ver tudo <i class="fa-solid fa-arrow-right"></i></a>
@@ -194,11 +194,11 @@
                 </div>
                 <div class="pre-rodape__contato">
                     <h3 class="pre-rodape__contato-titulo">Fale Conosco</h3>
-                    <form action="" autocomplete="off" class="pre-rodape__form">
+                    <form action="mailto:jrgluiz@example.com" method="get" autocomplete="off" class="pre-rodape__form">
                         <label for="input-nome">Nome</label>
-                        <input type="text" id="input-nome" class="pre-rodape__form-input">
-                        <textarea name="" id="" placeholder="Escreva sua mensagem" class="pre-rodape__form-msg"></textarea>
-                        <input type="submit" class="botao botao_tipo_primario pre-rodape__form-btn" value="Enviar mensagem">
+                        <input data-tipo="nome" type="text" id="input-nome" class="pre-rodape__form-input" required maxlength="40">
+                        <textarea data-tipo="msg" placeholder="Escreva sua mensagem" class="pre-rodape__form-msg" required maxlength="120"></textarea>
+                        <input type="submit" data-envia class="botao botao_tipo_primario pre-rodape__form-btn" value="Enviar mensagem">
                     </form>
                 </div>
             </div>
@@ -210,6 +210,6 @@
         <a href="https://www.linkedin.com/in/jorge-luiz-dev/" class="rodape__link">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/JorgeLuizB" class="rodape__link">Github <i class="fa-brands fa-square-github"></i></a>
     </footer>
-
+    <script type="module" src="assets/js/controlador.js"></script>
 </body>
 </html>

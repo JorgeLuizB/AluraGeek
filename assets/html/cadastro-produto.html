@@ -13,7 +13,7 @@
     <header class="cabecalho">
         <div class="container container_cabecalho">
             <div class="cabecalho__conteudo">
-                <a class="cabecalho__logo" href="index.html">
+                <a class="cabecalho__logo" href="../../index.html">
                     <img src="../imgs/logo.svg" alt="Logo do Alura Geek">
                 </a>
                 <form action="" class="cabecalho__pesquisa-form">
@@ -22,22 +22,22 @@
                 </form>
             </div>
             <div>
-                <a class="botao botao_tipo_secundario" href="login.html" title="Login">Login</a> 
+                <a class="botao botao_tipo_secundario" href="#" title="Menu Administrativo">Menu Administrativo</a> 
         </div>
     </header>
     <section class="cadastro-produtos">
         <div class="cadastro-produtos__conteudo">
             <h2 class="cadastro-produtos__titulo">Adicionar novo produto</h2>
-            <form action="" class="cadastro-produtos__form">
+            <form action="" autocomplete="off" class="cadastro-produtos__form">
                 <label class="cadastro-produtos__form-label" for="url">URL da imagem</label>
-                <input id="url" class="cadastro-produtos__form-input" type="text">
+                <input id="url" class="cadastro-produtos__form-input" type="text" required>
                 <label class="cadastro-produtos__form-label"  for="categoria">Categoria</label>
-                <input id="categoria" class="cadastro-produtos__form-input" type="text">
+                <input id="categoria" class="cadastro-produtos__form-input" type="text"  maxlength="20" required>
                 <label class="cadastro-produtos__form-label"  for="nome-produto">Nome do produto</label>
-                <input id="nome-produto" class="cadastro-produtos__form-input" type="text">
+                <input id="nome-produto" class="cadastro-produtos__form-input" type="text" maxlength="20" required>
                 <label class="cadastro-produtos__form-label"  for="preco-produto">Preço do produto</label>
-                <input id="preco-produto" class="cadastro-produtos__form-input" type="text">
-                <textarea class="cadastro-produtos__form-msg" placeholder="Descrição do Produto"></textarea>
+                <input id="preco-produto" class="cadastro-produtos__form-input" type="text" data-tipo="preco" required>
+                <textarea class="cadastro-produtos__form-msg" placeholder="Descrição do Produto" maxlength="150" required></textarea>
                 <input class="botao botao_tipo_primario botao_tipo-largo" type="submit" value="Entrar">
             </form>
         </div>
@@ -47,7 +47,7 @@
         <div class="container">
             <div class="pre-rodape__conteudo">
                 <div class="pre-rodape__links-uteis">
-                    <a class="pre-rodape__logo" href="index.html">
+                    <a class="pre-rodape__logo" href="../../index.html">
                         <img src="../imgs/logo.svg" alt="Logo do Alura Geek">
                     </a>
                     <ul class="pre-rodape__lista">
@@ -78,6 +78,7 @@
         <a href="https://www.linkedin.com/in/jorge-luiz-dev/" class="rodape__link">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/JorgeLuizB" class="rodape__link">Github <i class="fa-brands fa-square-github"></i></a>
     </footer>
-
+    <script type="module" src="../js/controlador.js"></script>
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
 </body>
 </html>
