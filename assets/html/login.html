@@ -28,9 +28,9 @@
     <section class="login">
         <div class="login__conteudo">
             <h2 class="login__titulo">Iniciar Sessão</h2>
-            <form action="" autocomplete="off" class="login__form">
-                <input class="login__form-input" type="email" id="email" name="email" placeholder="Escreva seu e-mail" data-tipo="email" required>
-                <input class="login__form-input" type="password" id="senha" name="senha" placeholder="Escreva sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^\da-zA-Z\s]).{6,12}$" title="A senha deve conter pelo menos 1 letra maiúscula, 1 letra minúscula, 1 número e 1 caractere especial. Comprimento mínimo de 6 caracteres e máximo de 12." required data-tipo="senha">
+            <form action="" autocomplete="off" class="login__form" data-form>
+                <input class="login__form-input" type="email" id="email" name="email" value="teste@exemplo.com" placeholder="Escreva seu e-mail" data-tipo="email" required>
+                <input class="login__form-input" type="password" id="senha" name="senha" value="ABCabc123@" placeholder="Escreva sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^\da-zA-Z\s]).{6,12}$" title="A senha deve conter pelo menos 1 letra maiúscula, 1 letra minúscula, 1 número e 1 caractere especial. Comprimento mínimo de 6 caracteres e máximo de 12." required data-tipo="senha">
                 <input class="botao botao_tipo_primario botao_tipo-largo" type="submit" value="Entrar">
             </form>
         </div>
@@ -71,6 +71,8 @@
         <a href="https://www.linkedin.com/in/jorge-luiz-dev/" class="rodape__link">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/JorgeLuizB" class="rodape__link">Github <i class="fa-brands fa-square-github"></i></a>
     </footer>
-    <script type="module" src="../js/controlador.js"></script>
+    <script type="module" src="../js/validador-controller.js"></script>
+    <script type="module" src="../js/login-controller.js"></script>
+
 </body>
 </html>

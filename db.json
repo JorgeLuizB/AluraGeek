@@ -1,0 +1,16 @@
+{
+  "produtos": [
+    {
+      "nome": "Produto XYZ",
+      "preco": "R$ 69.99",
+      "descricao": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      "categoria": "Console",
+      "imagem": "https://th.bing.com/th/id/OIP.czml831YcSla02WPGUNC8AHaHa?pid=ImgDet&rs=1.jpg",
+      "id": 1
+    }
+  ],
+  "usuarios": {
+    "email": "teste@exemplo.com",
+    "senha": "ABCabc123@"
+  }
+}

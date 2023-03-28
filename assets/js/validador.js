@@ -22,7 +22,7 @@ const validadores = {
     p_url: input => validaURL(input),
     p_categoria: input => validaCategoria(input),
     p_nome: input => validaProdutoNome(input),
-    p_preco: input => validaPreco(input),
+    //p_preco: input => validaPreco(input),
     p_descricao: input => validaDescricao(input)
 }
 
@@ -60,9 +60,13 @@ function validaSenha(input){
     if(input.validity.valueMissing){
         mensagem = 'A senha não pode estar vazia.';
         input.classList.add('erro');
+    } else if(input.validity.patternMismatch){
+        mensagem = '6-12 dígitos, 1 maiúsc., 1 minúsc., 1 num. e 1 c. especial';
+        input.classList.add('erro');
+        input.value = '';
     } else{
         input.classList.remove('erro');
-    } 
+    }
     input.placeholder = mensagem;
 }
 
@@ -119,19 +123,18 @@ function validaProdutoNome(input){
     } 
     input.placeholder = mensagem;
 }
-
+/*
 function validaPreco(input){
     let mensagem = '';
 
-    if(input.validity.valueMissing){
-        mensagem = 'O preço não pode estar vazio.';
+    if(input.value === ""){
         input.classList.add('erro');
     } else{
         input.classList.remove('erro');
     } 
     input.placeholder = mensagem;
 }
-
+*/
 function validaDescricao(input){
     let mensagem = '';
 
