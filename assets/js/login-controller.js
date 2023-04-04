@@ -7,9 +7,9 @@ formulario.addEventListener('submit', (evento) => {
         const email = evento.target.querySelector('[data-tipo="email"]').value;
         const senha = evento.target.querySelector('[data-tipo="senha"]').value;
 
-        produtoService.logaUsuario(email, senha)
+        produtoService.logaUsuario(email, senha);
 
     } catch(erro){
-        console.log(erro);
+        console.log('deu erro')
     }
 });

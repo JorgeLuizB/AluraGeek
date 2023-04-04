@@ -22,20 +22,33 @@ const criaProduto = (nome, preco, descricao, categoria, imagem) => {
     });
 }
 
-const logaUsuario = (email, senha) => {
-    return fetch(`http://localhost:3000/usuarios?email=${email}&senha=${senha}`)
-    .then(resposta => resposta.json())
-    .then(usuario => {
-        if(usuario.email === email && usuario.senha === senha){
+const logaUsuario = async (email, senha) => {
+    try{
+        const resposta = await fetch(`http://localhost:3000/usuarios?email=${email}&senha=${senha}`);
+        const usuario = await resposta.json();
+        if (usuario.email === email && usuario.senha === senha) {
             window.location.href = '../html/cadastro-produto.html';
-        }else{
-            
+        } else {
             throw new Error('Usuário ou senha inválidos');
         }
+    }   
+    catch(erro){
+            throw new Error('Ops! Algo deu errado, tente novamente mais tarde. Erro: ' + erro);
+    }
+}
+
+const listaProdutos = () => {
+    return fetch('http://localhost:3000/produtos')
+    .then(resposta => {
+        if (resposta.ok){
+        return resposta.json();
+        }
+        throw new Error('Não foi possível listar os produtos');
     });
 }
 
 export const produtoService = {
     criaProduto,
-    logaUsuario
+    logaUsuario,
+    listaProdutos
 }

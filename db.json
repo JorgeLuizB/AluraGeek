@@ -7,6 +7,30 @@
       "categoria": "Console",
       "imagem": "https://th.bing.com/th/id/OIP.czml831YcSla02WPGUNC8AHaHa?pid=ImgDet&rs=1.jpg",
       "id": 1
+    },
+    {
+      "nome": "Teste 1",
+      "preco": "R$20,00",
+      "descricao": "alguma coisa",
+      "categoria": "Console",
+      "imagem": "http://www.google.com.jpg",
+      "id": 2
+    },
+    {
+      "nome": "qweqwe",
+      "preco": "R$222,22",
+      "descricao": "qweqweqwe",
+      "categoria": "Arroz",
+      "imagem": "http://www.jpg",
+      "id": 3
+    },
+    {
+      "nome": "sdfsdfefvdfdadasdasd",
+      "preco": "R$33.333,33",
+      "descricao": "56465r4werwer",
+      "categoria": "Arroz",
+      "imagem": "http://www.jpg",
+      "id": 4
     }
   ],
   "usuarios": {
