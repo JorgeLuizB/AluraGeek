@@ -1,19 +1,5 @@
 import { produtoService } from "./products-service.js";
 
-const criaNovoProduto = (nome, preco, img, categoria, id) => {
-    const itemNovoProduto = document.createElement('div');
-    const conteudo =`   <img class="produto__imagem" src="${img}" alt="Categoria: ${categoria}">
-                        <h3 class="produto__titulo">${nome}</h3>
-                        <p class="produto__preco">${preco}</p>
-                        <a class="produto__link" href="">Ver produto</a>`;
-    
-    itemNovoProduto.classList.add('produto__item');
-    itemNovoProduto.innerHTML = conteudo;
-    itemNovoProduto.dataset.id = id;
-    return itemNovoProduto;
-
-}
-
 const modeloCategoria = `
         <div class="categoria__cabecalho">
         <h2 class="categoria__titulo"></h2>
@@ -59,8 +45,12 @@ const render = async () =>{
 
         const secaoProdutos = secaoCategoria.querySelector('.produtos');
         const produtosDaCategoria = produtosPorCategoria[categoria];
+        
 
-        produtosDaCategoria.forEach(produto => {
+        const embaralhaProdutos = produtosDaCategoria.sort(() => 0.5 - Math.random());
+        const produtosSelecionados = embaralhaProdutos.slice(0, 6);
+
+        produtosSelecionados.forEach(produto => {
         const produtoItem = document.createElement('div');
         produtoItem.classList.add('produto__item');
         produtoItem.innerHTML = modeloProduto;

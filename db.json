@@ -9,28 +9,60 @@
       "id": 1
     },
     {
-      "nome": "Teste 1",
-      "preco": "R$20,00",
-      "descricao": "alguma coisa",
-      "categoria": "Console",
-      "imagem": "http://www.google.com.jpg",
+      "nome": "Gato 1",
+      "preco": "R$25,00",
+      "descricao": "Gato 1 descrição",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/176/174?.jpg",
       "id": 2
     },
     {
-      "nome": "qweqwe",
-      "preco": "R$222,22",
-      "descricao": "qweqweqwe",
-      "categoria": "Arroz",
-      "imagem": "http://www.jpg",
+      "nome": "Gato 2",
+      "preco": "R$33,00",
+      "descricao": "Gato 2 descrição",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/176/172?.jpg",
       "id": 3
     },
     {
-      "nome": "sdfsdfefvdfdadasdasd",
-      "preco": "R$33.333,33",
-      "descricao": "56465r4werwer",
-      "categoria": "Arroz",
-      "imagem": "http://www.jpg",
+      "nome": "Gato 3",
+      "preco": "R$66,00",
+      "descricao": "Gato 3 descrição",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/175/173?.jpg",
       "id": 4
+    },
+    {
+      "nome": "Gato 4",
+      "preco": "R$77,00",
+      "descricao": "Gato 4 descriçao",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/175/174?.jpg",
+      "id": 5
+    },
+    {
+      "nome": "Gato 5",
+      "preco": "R$99,99",
+      "descricao": "Gato 5 Descrição",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/171/174?.jpg",
+      "id": 6
+    },
+    {
+      "nome": "Gato 6",
+      "preco": "R$120,00",
+      "descricao": "Gato 6 Descrição",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/179/176?.jpg",
+      "id": 7
+    },
+    {
+      "nome": "Gato 7",
+      "preco": "R$12,00",
+      "descricao": "Gato 7 Descrição",
+      "categoria": "Gatos",
+      "imagem": "https://placekitten.com/170/170?.jpg",
+      "id": 8
     }
   ],
   "usuarios": {
